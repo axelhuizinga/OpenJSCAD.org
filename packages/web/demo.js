@@ -8,7 +8,7 @@ rootEl.className = 'wrapper'
 //
 const el1 = document.createElement('div')
 el1.className = 'jscad1'
-const jscadInst1 = makeJscad(el1, { name: 'jscad1', logging: false })
+const jscadInst1 = makeJscad(el1, { name: 'jscad1', logging: true })
 rootEl.appendChild(el1)
 
 //
